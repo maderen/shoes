@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	margin-top: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border: 0px solid #FF0004;
+}
+
+
+
+
+
+/*顶部宣传图片*/
+.Propaganda {
+	margin-top:3% ;
+	height: 450px;
+	width: 100%;
+	border: solid 0px #FF0004;
+	overflow: hidden;
+}
+
+/*商品*/
+.goods
+{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	border: solid 0px #FF0004;
+}
+.message {
+	margin-left: 13%;
+	width: 50%;
+	height: 8%;
+	border: solid 0px #FF0004;
+	color: #000;
+	font-family: "等线"," 微软雅黑";
+	font-size: 1.3em;
+	line-height: 80px;
+	letter-spacing:2px;
+	font-weight: lighter;
+}
+.message b
+{
+	
+}
+.message b
+{
+	
+}
+
+
+.screen {
+	height:100%;
+	width: 16%;
+	float: left;
+	border: solid 0px #FF0004;
+	margin-left: 13%;
+}
+
+
+
+.product {
+	height:100%;
+	margin-right: 6%;
+	width: 64%;
+	float: right;
+	border: solid 0px #FF0004;
+}
+/*复选框*/
+.navContent ol, ul { list-style: none; }
+.subNavBox{width:100%;border:solid 1px #ededed;margin:0px;}
+.subNav
+{
+	border-bottom:solid 1px #ededed;
+	cursor:pointer;
+	font-family:"等线"," 微软雅黑"; 
+	font-size:1.1em;
+	color:#000;
+	line-height:50px;
+	padding-left:10px;
+	background:url(../images/jiantou1.jpg) no-repeat;
+	background-position:95% 50%;
+}
+.subNav:hover{color:#000;}
+.currentDd{color:#000}
+.currentDt{background-image:url(../images/jiantou.jpg);}
+.navContent
+{
+	margin: 0;
+	text-align: left;
+	display: none;
+	border-bottom: solid 1px #ededed;
+}
+.navContent li
+{
+	text-decoration:none;
+	font-family:"等线"," 微软雅黑"; 
+	display:block;
+	width:200px;
+	text-align:left;
+	font-size:1em;
+	line-height:28px;
+	color:#000;
+}
+
+.checkbox {
+	width: 100%;
+	margin:10px -25px;
+	position: relative;
+}
+.checkbox h
+{
+	font-family:"等线"," 微软雅黑"; 
+	text-align:left;
+	margin-left: 5%;
+	color:#000;
+	font-size: 0.9em;
+}
+.checkbox label {
+	cursor: pointer;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 0;
+  	left: 0;
+	background: #fff;
+	border:1px solid #ededed;
+}
+.checkbox label:after
+{
+	
+}
+.checkbox label:hover::after {
+}
+.checkbox input[type=checkbox]:checked + label:after {
+	opacity: 1;
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 8px;
+	background: transparent;
+	top: 6px;
+	left: 7px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+ 
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+
+/*商品排序与页面*/
+.productMassage {
+	width: 100%;
+	border:solid 0px #FF0004;
+	height: 50px;
+}
+.select a,a:hover{text-decoration:none; color:#666;}
+
+
+
+/* select */
+.select
+{
+	font-size:12px;
+	background:#fff;
+	color:#000;
+	position:relative;
+	float:left;
+	margin:0 0;
+	}
+.select dt{
+	height:30px;
+	display:inline-block;
+	border:1px solid #c8cbcc;
+	background:#fcfcfb url(../images/ico.gif) no-repeat 97px center;
+	line-height:30px;
+	padding-left:10px;
+	cursor:pointer;
+	width:110px;
+	padding-right:12px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	position:relative;
+	z-index:99;
+}
+.select dt:hover,.select dt.cur{border:1px solid #409DFE;}
+.select dd
+	{
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		position:absolute;
+		left:0;
+		border:1px solid #c8cbcc;
+		background:#fff;
+		display:none;
+	}
+.select dd ul{padding:4px;width:104px;max-height:250px;overflow:auto;}
+.select dd ul li a{line-height:28px;display:block;padding:0 8px;}
+.select dd ul li a:hover{background:#f5f5f5;}
+
+
+
+/*商品列表*/
+.productList
+{
+	padding:0;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	border: solid 0px  #3A00FF;
+}
+.productList ul
+{
+	height:auto;
+	padding:0;
+	margin: 0 auto;
+	border: solid 0px #000;
+}
+.productList ul li
+{
+	overflow: visible;
+	float: left;
+	width: 23%;
+	height: 320px;	
+	margin-right: 2%;
+	margin-bottom: 5%;
+	border: solid 0px  #1E180F;
+
+	
+}
+
+.productintroduce,.productintroduce a{
+	font-family: "等线"," 微软雅黑";
+	font-size: 0.9em;
+	color: #586268;
+}
+/*信息中的分割线*/
+.productintroducehr
+{
+	height:1px;
+	border:none;
+	border-top:1px  dotted #0066CC;
+}
+.productintroduce h
+{
+	color: #000;
+	font-size: 0.8em;
+}
+.productintroduce h4
+{
+	color: #000;
+}
+.productintroduce h3
+{
+	
+	 transition:all 0.5s;
+     -moz-transition:all 0.5s; /* Firefox 4 */
+     -webkit-transition:all 0.5s; /* Safari and Chrome */
+     -o-transition:all 0.5s; /* Opera */
+     visibility: hidden;
+	 opacity: 0;
+}
+.productList ul li :hover h3
+{
+	 visibility: visible;
+	 opacity: 1;
+}
+.productList ul li :hover
+{
+	-webkit-box-shadow:0 0 10px rgba(0, 204, 204, .5);  
+  -moz-box-shadow:0 0 10px rgba(0, 204, 204, .5);  
+  box-shadow:0 0 10px rgba(0, 204, 204, .5); 
+}
+

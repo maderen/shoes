@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.detailspage {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 115px;
+	height: 1920px;
+	border: solid 0px #005B96;
+	width: 1000px;
+}
+
+.detailspage-preview {
+	width: 58%;
+	height: 500px;
+	float: left;
+	border: solid 0px #009C82;
+}
+
+.detailspage-text {
+	font-family: "等线"," 微软雅黑";
+	color: black;
+	float: right;
+	border: solid 0px #B10002;
+	width: 36%;
+	height: 500px;
+}
+
+.detailspage-back {
+	width: 100%;
+	height: 50px;
+}
+
+.detailspage-text-title1 {
+	
+}
+.detailspage-text-title1 a{
+	color: #02a7e4;
+	
+}
+
+.detailspage-text-title2 {
+	margin-top: 3%;
+	font-weight: lighter;
+	font-size: 1.1em;
+}
+
+.detailspage-text-title3 {
+	font-family:"erica-one";
+	font-size: 1.6em;
+	font-weight: bolder;
+}
+
+.detailspage-text-Color {
+	color: #9a9b9b;
+	font-size: 0.8em;
+	margin-top: 10%;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.detailspage-text-Color img
+{
+	margin-top: 1%;
+}
+
+.detailspage-text-size {
+	
+	color: #9a9b9b;
+	font-size: 0.8em;
+	margin-top: 2%;
+	height: auto;
+}
+
+
+
+.detailspage-text2 {
+	width: 100%;
+	height: 100px;
+	border: 0px solid;
+	margin-top: 18%;
+}
+
+.detailspage-text2-limited {
+	color: #da9511;
+}
+
+.Addbutton
+	{
+		margin-top: 5%;
+		line-height: 50px;
+		font-weight: bolder ;
+		font-size: 1.1em;
+		text-align: center;
+		font-family:   "等线"," 微软雅黑";    
+		width: 200px;
+		height: 50px;
+		color: white;
+		background: -webkit-linear-gradient(left top, #025f8f, #0286cd);
+		-webkit-transition:all 1s;
+	}
+	.Addbutton:hover a
+	{
+		color: white;
+	}
+	.Addbutton:hover
+	{
+		background:-webkit-linear-gradient(left top, #025f8f, #025f8f);
+	}
+
+.next-look {
+	width: 100%;
+	height: 220px;
+	border: 0px solid;
+	float: left;
+	padding: 5px 7.8%;
+	font-family:  "等线"," 微软雅黑";
+	color: black; 
+	font-size: 0.8em;
+	font-weight: bold;
+}
+.next-look hr
+{
+	height:1px;
+	border:none;
+	border-top:1px dotted #c8cbcc; 
+	width: 500px; 
+	float: left;
+}
+
+.next-look-img1 {
+	margin-right: 5%;
+	width: 100px;
+	height: 140px;
+	border: 0px solid;
+	float: left;
+}
+
+.next-look-hr 
+{
+	width: 100%;
+	float: left;
+}
+
+.next-look-text {
+	font-weight: 200;
+	font-family: "erica-one";
+	font-size: 0.8em;
+	border: solid 0px #FF0004;
+	
+}
+
+.detailed-information {
+	float: left;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	border:  #009803 solid 0px;
+	text-align: center;
+	font-family: "等线"," 微软雅黑";
+	color: black;
+	letter-spacing: 2px;
+}
+
+.detailed-information-1 {
+	font-family: "erica-one";
+	font-weight: 300;
+	font-size: 0.8em;
+	float: left;
+	width: 49%;
+	height: 300px;
+	border: #005873 0px solid;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.detailed-information-2 ul
+{
+	list-style: disc;
+}
+.detailed-information-2 
+{
+	font-weight: 300;
+	font-family: "erica-one";
+	font-size: 0.8em;
+	float: right;
+	width: 49%;
+	height: 300px;
+	border: #005873 0px solid;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.SHARE-WEAR 
+{
+	float: left;
+	width: 100%;
+	height: 400px;
+	border:  #009803 solid 0px;
+	text-align: center;
+	font-family: "等线"," 微软雅黑";
+	color: black;
+	letter-spacing: 2px;
+}
+
+.SHARE-WEAR-img {
+	
+	width: 100%;
+	height: 500px;
+	border: solid 0px #E300E9;
+}
+
+.SHARE-WEAR-img1 {
+	float: left;
+	height: 99%;
+	width: 49.5%;
+	border: solid 0px #FFED00;
+}
+.SHARE-WEAR-img2 {
+	float: right;
+	height: 99%;
+	width: 49.5%;
+	border: solid 0px #FFED00;
+}
+
+.SHARE-WEAR-img2-left,.SHARE-WEAR-img2-right
+{
+	margin-top: 0.5%;
+	width: 49.5%;
+	height: 49.5%;
+	border: solid 0px;
+}
+.SHARE-WEAR-img2-left
+{
+	float: left;
+}
+.SHARE-WEAR-img2-right
+{
+	float: right;
+}

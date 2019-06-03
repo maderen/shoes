@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.bottom {
+	margin-top: 20%;
+}
+
+.blacksign {
+	color: #fff;
+	font-weight: bolder;
+	font-family: "等线"," 微软雅黑";
+	line-height: 80px;
+	padding-left: 12%;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	background-color: #000;
+	width: 100%;
+	height: 80px;
+}
+
+.info {
+	float: left;
+	margin-left: 15%;
+	width: 70%;
+	height: 500px;
+	border: solid 0px #FF0004;
+	text-align: left;
+	font-family: "等线"," 微软雅黑";
+	color: #000;
+	font-size: 0.9em;
+}
+.info ul
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+}
+.info li
+{
+	
+	margin-bottom: 5px;
+}
+.info a
+{	font-size: 0.9em;
+	color: #000;
+}
+.info a:hover
+{
+	text-decoration:underline;
+}
+.bottominfo {
+	float: left;
+	text-align: center;
+	color: #aeafb0;
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+	font-size: 0.8em;
+	background-color: #363738;
+}

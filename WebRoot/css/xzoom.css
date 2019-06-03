@@ -1,0 +1,79 @@
+.xzoom-source img, .xzoom-preview img, .xzoom-lens img {
+  display: block;
+  max-width: none;
+  max-height: none;
+}
+
+.xzoom-container { 
+	height: 500px;
+	width: 500px;
+	display: inline-block; 
+}
+
+.xzoom-thumbs 
+{
+	width: 6%;
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 2%;
+	border: 0px #cecece solid;
+}
+
+.xzoom-gallery
+{ 
+  	border: 1px solid #cecece; 
+  	margin-left: 0px;
+	margin-bottom: 20%;
+  
+}
+
+.xzoom-source, .xzoom-hidden {
+  display: block;
+  position: static;
+  float: none;
+  clear: both;
+}
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+  overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+	position: relative;
+	z-index: 99;
+  border: 1px solid #888;
+  background: #2f4f4f;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
+}
+
+/* Caption */
+.xzoom-caption {
+  position: absolute;
+  bottom: -43px;
+  left: 0;
+  background: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.xzoom-caption span {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.large {
+	margin: 0;
+	width: 620px;
+	
+}
+.xzoom {
+	margin-left: 6%;
+	height: 500px;
+	width: 500px;
+}

@@ -1,0 +1,202 @@
+/* General Demo Style */
+
+
+@font-face {
+	
+	
+}
+
+body, html 
+{ 
+	font-size: 100%; 	padding: 0; margin: 0;}
+.main {
+	background-color: #000;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+}
+
+a {
+	font-size: 0.9em;
+	font-family:"绛夌嚎"," 寰蒋闆呴粦";
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+
+.title {
+	top: 0%;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 999;
+	
+}
+.Toptitle {
+	width: 100%;
+	height: 30px;
+	background: -webkit-linear-gradient(left top, #000, #202021);
+/*	璋锋瓕娴忚鍣ㄦ笎鍙�*/
+	background-color: #202021;
+}
+
+.ToptitleR {
+	float: right;
+	width: 20%;
+	height: 100%;
+	border: 0px solid #FFFFFF;
+}
+.ToptitleR ul {
+	
+	margin-top: 1.8%;
+	
+	padding: 0;
+	list-style-type: none;
+}
+.ToptitleR ul li{
+	
+	float: left;
+	color: #c8cbcc;
+	font-size: 0.7em;
+	margin-right:10px;
+	padding: 0;
+	list-style-type: none;
+	
+}
+.Toptitle img
+{
+	
+	margin-left: 10%;
+}
+/*search*/
+#searchform 
+	{ 
+		float:left; 
+		margin-left:0px; 
+		margin:0px 0px 0px; 
+		padding:0px; 
+	}
+	
+	#searchform input[type="text"] { 
+		background:#fff;
+		border:none;
+		float:right;	
+		font-size: 0.8em;
+		font-family: "绛夌嚎"," 寰蒋闆呴粦";
+		padding:0px 10px 0px 5%;
+		margin:0px;
+		width:150px; 
+		height:30px;
+		line-height:38px;
+		transition:all 300ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		-moz-transition:all 300ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s; 
+		-webkit-transition:all 300ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s; 
+		-o-transition:all 300ms cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+		color:#666563; 
+	}
+	#searchform input[type="text"]:hover, #searchform input[type="text"]:focus { width:200px; }
+
+
+	
+#searchform input[type="submit"] 
+	{ 
+		background:url(../images/icon-search.png) center 11px no-repeat; 
+		cursor:pointer; 
+		margin-top:-4px; 
+		padding:0px; 
+		width:30px; 
+		height:30px; 
+		line-height:30px; 
+}
+	
+	input[type="submit"] 
+	{ 
+		padding:4px 17px; 
+		color:#585858; 
+		text-transform:uppercase; 
+		border:none; 
+		font-size:20px; 
+		background:url(gradient.png) bottom repeat-x; 
+		cursor:pointer; 
+		margin-top:10px; 
+		float:left; 
+		overflow:visible;
+		transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+	}
+	
+	#searchform input[type="submit"]:hover { background-color:#333232; }
+	.titlesearch #searchform input[type='submit'] { background-color:#000; }
+
+	.titlesearch
+	{
+		position: absolute;
+		top: 39px;
+		
+		right: 12%;
+		background-color: none;
+		display:block; 
+		clear:both 
+	}
+
+
+.FreeRETURNS 
+{
+	height: 40px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #c8cbcc; 
+	text-align: center;
+	overflow: hidden;
+}
+.FreeRETURNSIMG
+
+{
+	margin-top: 0.4%;
+	height: 8%
+}
+.FreeRETURNS a
+{
+	
+	font-size: 0.9em;
+	color: #363738;
+}
+/*鐭殑hr 鐢ㄤ簬鍒嗛殧绗�*/
+.sorthr {
+	height:1px;
+	border:none;
+	border-top:1px solid #c8cbcc; 
+	width: 30px; 
+	float: left;
+}
+
+
+
+

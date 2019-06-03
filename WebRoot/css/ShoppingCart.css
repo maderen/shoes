@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ShoppingCart {
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	height: 1000px;
+	border: solid 0px;
+}
+
+.ShoppingCartList {
+	float: left;
+	width: 64%;
+	height:auto;
+	border: solid 0px #FF0000;
+}
+
+.Settlement {
+	background-color: #ebebeb;
+	float: right;
+	width: 30%;
+	height: 300px;
+	border: solid 0px #FF0000;
+	padding: 10px 20px;
+	font-size: 0.9em;
+	
+}
+.Settlement h3
+{
+	font-family:  "等线"," 微软雅黑";
+	color: black;
+}
+
+.ShoppingCartText {
+	color:black;
+	height: 60px;
+	line-height: 60px;
+	border: solid 0px #000;
+	font-family: "等线"," 微软雅黑";
+	font-size: 1.4em;
+}
+
+.ShoppingCartText a
+{
+	font-size: 0.7em;
+	color: #1499dc;
+	float: right;
+	margin-top: 0;
+}
+
+.item {
+	margin-bottom: 5%;
+	height: 150px;
+	border-bottom: 1px dotted #000000;
+}
+
+.selectdiv {
+	
+	float: right;
+}
+
+.itemimg {
+	
+	float: left;
+}
+
+.Price {
+	font-family:  "等线"," 微软雅黑";
+	font-size: 1.2em;
+	color: black;
+	width: 80px;
+	line-height: 20px;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+
+.itemtext {
+	color:black;
+	margin-left: 2%;
+	float: left;
+	width: 40%;
+	height: 100%;
+	
+}
+.itemhref
+{
+	margin-top: 30%;
+}
+.itemhref a
+{
+	color: #1499dc;
+}
+/*结算按钮*/
+.Settlementbutton
+	{
+		margin-top: 6%;
+		position: relative;
+		font-family:   "等线"," 微软雅黑";
+		font-weight: bold;
+		line-height: 50px;
+		color: white;
+		width: 200px;
+		height: 50px;
+		background: -webkit-linear-gradient(left top, #025f8f, #0286cd);
+	}
+	.Settlementbutton h
+	{
+		margin-left: 35%;
+	}
+	.Arrow
+	{
+		-webkit-transition:all 0.2s;
+		width: 14px;
+		height: 14px;
+		border-radius:7px;
+		line-height: 14px;
+		text-align: center;
+		border: solid 1px #fff;
+		position: absolute;
+		margin-top:-32px;
+		margin-left: 60%;
+		font-size: 0.6em;
+	}
+	.Settlementbutton:hover .Arrow
+	{
+		margin-left: 65%;
+	}
+
+.Total {
+	font-family: "等线"," 微软雅黑";
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+	padding: 0 8px;
+	border-bottom: dotted 1px #A4A3A3;
+
+}
+.Total h
+{
+	float: left;
+}
+.Total span
+{
+	float: right;
+}
+
+
+.info {
+	width: 100%;
+	height: 50px;
+	background: -webkit-linear-gradient(left top, #000, #1a1a1a);
+}
+.info h
+{
+	font-size: 0.9em;
+	line-height: 50px;
+	color: #c8cbcc;
+	float: right;
+	margin-right: 20%;
+}
